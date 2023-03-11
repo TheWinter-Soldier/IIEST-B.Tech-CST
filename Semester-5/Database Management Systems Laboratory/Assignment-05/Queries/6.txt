@@ -1,0 +1,7 @@
+SELECT city_name
+FROM City
+WHERE city_name in (SELECT destination
+                    FROM Shipment
+                    GROUP BY destination
+                    HAVING count(distinct(cust_id)) = (SELECT count(cust_id)
+                                                      FROM Customer));

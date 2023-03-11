@@ -1,0 +1,4 @@
+SELECT Max(SAL) as 'Second Highest Salary'
+FROM EMP
+WHERE SAL != (SELECT Max(SAL)
+              FROM EMP);

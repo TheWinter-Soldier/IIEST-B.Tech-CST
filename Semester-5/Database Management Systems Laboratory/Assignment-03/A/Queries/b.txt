@@ -1,0 +1,4 @@
+select S.s_id,s_name,Day
+from SAILORS S,RESERVES R
+where S.s_id = R.s_id
+AND R.Day = 'Monday';

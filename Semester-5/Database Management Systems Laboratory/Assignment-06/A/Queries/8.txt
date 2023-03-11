@@ -1,0 +1,5 @@
+SELECT ENAME
+FROM EMP
+WHERE EMPNO in (SELECT EMPNO
+                FROM EMP
+                WHERE JOB != 'Manager');

@@ -1,0 +1,4 @@
+create table TEACHER(
+Tid integer primary key,
+Name varchar(15),
+Dept varchar(35));

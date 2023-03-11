@@ -1,0 +1,3 @@
+create table ZIPCODES(
+ZIP integer primary key,
+CITY varchar(12));

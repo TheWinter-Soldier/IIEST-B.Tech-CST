@@ -1,0 +1,3 @@
+UPDATE ZIPCODES
+SET CITY = 'Perth'
+WHERE CITY = 'Columbia';

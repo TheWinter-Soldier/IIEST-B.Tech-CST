@@ -1,0 +1,3 @@
+SELECT DNAME,(Max(SAL)-Min(SAL)) as DIFF
+FROM EMP natural join DEPT
+GROUP by DEPTNO;

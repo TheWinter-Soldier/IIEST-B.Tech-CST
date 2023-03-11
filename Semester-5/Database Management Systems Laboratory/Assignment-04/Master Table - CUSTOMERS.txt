@@ -1,0 +1,6 @@
+create table CUSTOMERS(
+CNO integer primary key,
+CNAME varchar(8),
+STREET varchar(12),
+ZIP integer references ZIPCODES(ZIP) on delete set NULL,
+PHONE long);

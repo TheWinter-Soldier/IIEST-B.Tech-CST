@@ -1,0 +1,5 @@
+create table crs_offrd(
+crs_code char(5) primary key,
+crs_name varchar(35) not NULL,
+crs_credits float(2,1),
+crs_fac_cd char(8) references faculty(fac_code) on delete set NULL);

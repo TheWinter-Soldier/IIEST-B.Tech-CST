@@ -1,0 +1,4 @@
+SELECT X.PNO,PNAME,Format(Sum(P.PRICE * X.QTY),2) as 'Total Sales'
+FROM PARTS P,ODETAILS X
+WHERE P.PNO = X.PNO
+group by P.PNO;

@@ -1,0 +1,5 @@
+SELECT ENAME,SAL
+FROM EMP E1
+WHERE E1.SAL > ALL(SELECT SAL
+                   FROM EMP E2 natural join DEPT D
+                   WHERE LOC = 'Dallas');

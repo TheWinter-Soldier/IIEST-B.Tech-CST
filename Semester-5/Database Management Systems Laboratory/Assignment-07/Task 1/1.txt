@@ -1,0 +1,6 @@
+create view Students_of_CST_Department as
+SELECT *
+FROM students
+where deptcode = (SELECT deptcode
+                  FROM depts
+                  where deptname = 'Computer Science and Technology');

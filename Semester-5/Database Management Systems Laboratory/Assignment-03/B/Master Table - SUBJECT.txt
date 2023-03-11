@@ -1,0 +1,3 @@
+create table SUBJECT(
+Subno integer primary key,
+Subtitle varchar(16));

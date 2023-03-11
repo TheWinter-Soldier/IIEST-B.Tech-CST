@@ -1,0 +1,5 @@
+create table crs_regd(
+crs_rollno char(8) references students(rollno) on delete cascade,
+crs_cd char(5) references crs_offrd(crs_code) on delete cascade,
+marks float(5,2),
+primary key(crs_rollno,crs_cd));

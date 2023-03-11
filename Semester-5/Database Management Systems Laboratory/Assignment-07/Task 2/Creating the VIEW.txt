@@ -1,0 +1,4 @@
+create view Mech_students as
+SELECT rollno as 'Roll-No',name as Name,deptname as 'Department Name',year(From_days(To_days(CURDATE())-To_days(bdate))) as Age
+FROM students NATURAL JOIN depts 
+where deptname = 'Mechanical Engineering';

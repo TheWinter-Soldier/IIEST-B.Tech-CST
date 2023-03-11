@@ -1,0 +1,5 @@
+create table RESERVES(
+s_id integer references SAILORS(s_id) on delete set NULL,
+b_id integer references BOATS(b_id) on delete set NULL,
+day varchar(9),
+primary key(s_id,b_id));

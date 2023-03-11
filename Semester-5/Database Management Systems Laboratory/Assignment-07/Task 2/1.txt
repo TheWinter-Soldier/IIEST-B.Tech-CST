@@ -1,0 +1,1 @@
+insert into Mech_students values('21MEB066','Random','Mechanical Engineering',27);

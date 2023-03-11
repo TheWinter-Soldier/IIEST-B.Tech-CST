@@ -1,0 +1,5 @@
+SELECT DNAME
+FROM DEPT
+WHERE DEPTNO in (SELECT DEPTNO
+                 FROM EMP
+                 WHERE COMM is not NULL);

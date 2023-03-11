@@ -1,0 +1,5 @@
+create table ODETAILS(
+ONO integer references ORDERS(ONO) on delete set NULL,
+PNO integer references PARTS(PNO) on delete set NULL,
+QTY integer,
+primary key(ONO,PNO));

@@ -1,0 +1,4 @@
+create table BOATS(
+b_id integer primary key,
+b_name varchar(10),
+b_color varchar(11));

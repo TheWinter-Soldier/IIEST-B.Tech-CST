@@ -1,0 +1,5 @@
+create table SAILORS(
+s_id integer primary key,
+s_name varchar(8),
+rating float check(rating <= 5.0),
+age integer);

@@ -1,0 +1,11 @@
+insert into crs_offrd values('CS001','Database Management Systems',5,'CS_FAC01');
+insert into crs_offrd values('CS002','Artificial Intelligence',5,'CS_FAC02');
+insert into crs_offrd values('CS003','Machine Learning',2,'CS_FAC02');
+insert into crs_offrd values('CS004','Digital Logic',4,'CS_FAC03');
+insert into crs_offrd values('ME001','Strength of Materials',4,'ME_FAC01');
+insert into crs_offrd values('ME002','Kinematics',4,'AM_FAC01');
+insert into crs_offrd values('ME003','Complex Machine Design',5,'ME_FAC02');
+insert into crs_offrd values('CE001','Environmental Sciences',4,'CE_FAC01');
+insert into crs_offrd values('CE002','Water Resources',4,'CE_FAC02');
+insert into crs_offrd values('AM001','Fluid Mechanics',5,'AM_FAC01');
+insert into crs_offrd values('AM002','Flight Systems',4,'AM_FAC02');

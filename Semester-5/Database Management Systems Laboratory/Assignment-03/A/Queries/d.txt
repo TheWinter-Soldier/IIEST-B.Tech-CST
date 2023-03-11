@@ -1,0 +1,2 @@
+delete from SAILORS
+where age>60;

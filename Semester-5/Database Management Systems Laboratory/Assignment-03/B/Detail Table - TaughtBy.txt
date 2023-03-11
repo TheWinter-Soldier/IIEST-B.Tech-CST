@@ -1,0 +1,4 @@
+create table TaughtBy(
+Tid integer references TEACHER(Tid) on delete set NULL,
+Subno integer references SUBJECT(Subno) on delete set NULL,
+primary key(Tid,Subno));

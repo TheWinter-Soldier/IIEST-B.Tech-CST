@@ -1,0 +1,6 @@
+create view cse_stud as
+SELECT rollno,name,hostel
+FROM students
+where deptcode = (SELECT deptcode
+                  FROM depts
+                  where deptname = 'Computer Science and Technology');

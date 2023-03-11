@@ -1,0 +1,7 @@
+insert into TEACHER values(1547,'Alex Lane','Biology');
+insert into TEACHER values(1611,'Ron Howard','Computer Science and Technology');
+insert into TEACHER values(1683,'Carl Vinson','Physics');
+insert into TEACHER values(1706,'Mark Gosling','Humanities');
+insert into TEACHER values(1765,'Ryan Hall','Physics');
+insert into TEACHER values(1799,'Zen Xi','Mathematics');
+insert into TEACHER values(1840,'Liam Payne','Physics');

@@ -1,0 +1,3 @@
+select *
+from BOATS
+where b_color = 'Green';

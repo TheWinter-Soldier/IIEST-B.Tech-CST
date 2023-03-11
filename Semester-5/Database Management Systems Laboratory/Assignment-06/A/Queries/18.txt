@@ -1,0 +1,5 @@
+SELECT DNAME as Department,ENAME as 'Lowest paid Employee in Department'
+FROM EMP natural join DEPT
+WHERE SAL in (SELECT Min(SAL)
+              FROM EMP
+              GROUP by DEPTNO);

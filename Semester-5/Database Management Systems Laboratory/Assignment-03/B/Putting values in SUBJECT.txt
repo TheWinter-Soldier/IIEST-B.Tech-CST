@@ -1,0 +1,9 @@
+insert into SUBJECT values(104,'Real Analysis');
+insert into SUBJECT values(105,'Hyper-Geometry');
+insert into SUBJECT values(116,'Thermodynamics');
+insert into SUBJECT values(118,'Optics');
+insert into SUBJECT values(123,'Hydrodynamics');
+insert into SUBJECT values(177,'History');
+insert into SUBJECT values(138,'DBMS');
+insert into SUBJECT values(161,'Cardiology');
+insert into SUBJECT values(164,'Orthopaedics');

@@ -1,0 +1,52 @@
+          ABC Company
+
+
+Region 1
+------------
+Salesman 1			 Rs 1530
+Salesman 2			 Rs 260
+Salesman 3			 Rs 60
+Salesman 4			 Rs 700
+Salesman 5			 Rs 3640
+Salesman 6			 Rs 1400
+
+Total Sales at Region 1 : Rs 7590
+
+
+
+Region 2
+------------
+Salesman 1			 Rs 3360
+Salesman 2			 Rs 90
+Salesman 3			 Rs 2800
+Salesman 4			 Rs 520
+Salesman 5			 Rs 420
+Salesman 6			 Rs 540
+
+Total Sales at Region 2 : Rs 7730
+
+
+
+Region 3
+------------
+Salesman 1			 Rs 60
+Salesman 2			 Rs 700
+Salesman 3			 Rs 65
+Salesman 4			 Rs 180
+Salesman 5			 Rs 180
+Salesman 6			 Rs 510
+
+Total Sales at Region 3 : Rs 1695
+
+
+
+Region 4
+------------
+Salesman 1			 Rs 180
+Salesman 2			 Rs 2100
+Salesman 3			 Rs 45
+Salesman 4			 Rs 4900
+Salesman 5			 Rs 520
+Salesman 6			 Rs 1530
+
+Total Sales at Region 4 : Rs 9275

@@ -1,0 +1,11 @@
+SELECT year(From_days(To_days(CURDATE())-To_days((
+SELECT DOB
+FROM SAILORS
+WHERE DOB is not NULL)))) AS 'Age in years';
+
+
+
+
+Drop the 'age' column in SAILORS Table, then add a different column 'DOB'.
+Give a random Date of Birth to one of the sailors.
+Now calculate his age using Query.

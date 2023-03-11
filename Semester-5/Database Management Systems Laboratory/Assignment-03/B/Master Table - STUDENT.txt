@@ -1,0 +1,4 @@
+create table STUDENT(
+Rollno integer primary key,
+Sname varchar(8),
+City varchar(9));

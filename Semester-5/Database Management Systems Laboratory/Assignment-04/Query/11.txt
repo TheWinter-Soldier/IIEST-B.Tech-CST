@@ -1,0 +1,21 @@
+SELECT X1.PNO,PNAME,Format(Sum(P1.PRICE * X1.QTY),2) as 'Total Sales'
+FROM PARTS P1,ODETAILS X1
+WHERE P1.PNO = X1.PNO
+AND (
+SELECT Sum(P2.PRICE * X2.QTY)
+FROM PARTS P2,ODETAILS X2
+WHERE P2.PNO = X2.PNO
+AND X1.PNO = X2.PNO) > 100.53
+group by P1.PNO;
+
+
+
+              OR
+
+
+
+SELECT PNO,PNAME,Format(Sum(PRICE*QTY),2) as 'Total Sales'
+FROM PARTS natural join ODETAILS
+group by PNO
+HAVING Format(Sum(PRICE*QTY),2) > 100.53;
+

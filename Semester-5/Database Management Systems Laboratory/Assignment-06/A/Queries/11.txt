@@ -1,0 +1,6 @@
+SELECT ENAME,SAL
+FROM EMP
+WHERE SAL = (SELECT Max(SAL)
+             FROM EMP
+             WHERE SAL != (SELECT Max(SAL)
+                           FROM EMP));

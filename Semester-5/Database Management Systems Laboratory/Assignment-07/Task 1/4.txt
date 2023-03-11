@@ -1,0 +1,2 @@
+UPDATE Students_of_CST_Department
+SET parent_inc = parent_inc + 5000;

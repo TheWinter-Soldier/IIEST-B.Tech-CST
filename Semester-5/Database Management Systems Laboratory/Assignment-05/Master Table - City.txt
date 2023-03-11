@@ -1,0 +1,3 @@
+CREATE TABLE City(
+city_name varchar(9) primary key,
+population integer);

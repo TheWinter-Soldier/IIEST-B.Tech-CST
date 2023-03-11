@@ -1,0 +1,2 @@
+SELECT distinct PNO
+FROM ODETAILS;

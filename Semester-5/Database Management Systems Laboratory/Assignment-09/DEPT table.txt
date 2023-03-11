@@ -1,0 +1,4 @@
+create table DEPT(
+DEPTNO integer primary key,
+DNAME varchar(15),
+LOC varchar(15));

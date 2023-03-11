@@ -1,0 +1,7 @@
+create table students(
+rollno char(8) primary key,
+name varchar(30),
+bdate date check (bdate < 1997-1-1),
+deptcode char(3) references depts(deptcode) on delete cascade,
+hostel integer check(hostel < 10),
+parent_inc float(8,1));

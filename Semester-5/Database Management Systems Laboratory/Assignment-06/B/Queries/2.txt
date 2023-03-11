@@ -1,0 +1,3 @@
+SELECT DNAME,LOC,Count(EMPNO) as 'No. of employees in department',Format(Avg(SAL),2) as 'Average Salary of department'
+FROM EMP natural join DEPT
+GROUP by DEPTNO;

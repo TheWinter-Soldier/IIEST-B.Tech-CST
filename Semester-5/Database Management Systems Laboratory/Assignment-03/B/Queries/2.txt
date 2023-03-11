@@ -1,0 +1,3 @@
+update SUBJECT
+SET Subtitle = 'RDBMS'
+where Subno = 138;

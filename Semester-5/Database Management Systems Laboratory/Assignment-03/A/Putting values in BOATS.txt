@@ -1,0 +1,6 @@
+insert into BOATS values(3001,'Swordfish','Red');
+insert into BOATS values(3002,'Ranger','Blue');
+insert into BOATS values(3003,'Bloodwagon','Red');
+insert into BOATS values(3004,'Swift','Gray');
+insert into BOATS values(3005,'Ilium','Green');
+insert into BOATS values(3006,'Dragon','Metal Black');

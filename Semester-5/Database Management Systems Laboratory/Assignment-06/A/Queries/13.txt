@@ -1,0 +1,8 @@
+SELECT ENAME,SAL
+FROM EMP
+WHERE SAL >= (SELECT Min(SAL)
+              FROM (SELECT distinct(SAL)
+                    FROM EMP
+                    ORDER BY SAL desc
+                    LIMIT 5) AS T)
+ORDER by SAL desc;

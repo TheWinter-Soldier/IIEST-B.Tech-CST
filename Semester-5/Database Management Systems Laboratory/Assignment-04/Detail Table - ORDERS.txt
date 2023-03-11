@@ -1,0 +1,6 @@
+create table ORDERS(
+ONO integer primary key,
+CNO integer references CUSTOMERS(CNO) on delete set NULL,
+ENO integer references EMPLOYEES(ENO) on delete set NULL,
+RECEIVED date,
+SHIPPED date);

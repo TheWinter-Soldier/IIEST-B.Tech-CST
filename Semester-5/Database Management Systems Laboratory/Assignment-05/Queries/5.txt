@@ -1,0 +1,5 @@
+SELECT *
+FROM City
+WHERE city_name in (SELECT destination
+                    FROM Shipment
+                    WHERE weight > 100);

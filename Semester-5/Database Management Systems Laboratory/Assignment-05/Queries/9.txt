@@ -1,0 +1,7 @@
+SELECT *
+FROM Truck
+WHERE truck_no in (SELECT truck_no
+                   FROM Shipment
+                   GROUP BY truck_no
+                   HAVING count(distinct(destination)) = (SELECT count(distinct(city_name))
+                                                          FROM City));

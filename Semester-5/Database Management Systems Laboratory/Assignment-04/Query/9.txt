@@ -1,0 +1,4 @@
+SELECT PNO,PNAME,PRICE as 'Price of Parts'
+FROM PARTS
+WHERE PRICE < 20.00
+order by PNO;

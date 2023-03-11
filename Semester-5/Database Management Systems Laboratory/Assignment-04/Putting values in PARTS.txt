@@ -1,0 +1,8 @@
+insert into PARTS values(10506,'Land before time 1',200,17.99,20);
+insert into PARTS values(10507,'Land before time 2',156,17.99,20);
+insert into PARTS values(10508,'Land before time 3',190,17.99,20);
+insert into PARTS values(10509,'Land before time 4',60,17.99,20);
+insert into PARTS values(10601,'Nut',300,24.99,30);
+insert into PARTS values(10602,'Bolt',120,17.99,30);
+insert into PARTS values(10603,'Screw',140,13.49,30);
+insert into PARTS values(10800,'Driller',100,24.99,30);

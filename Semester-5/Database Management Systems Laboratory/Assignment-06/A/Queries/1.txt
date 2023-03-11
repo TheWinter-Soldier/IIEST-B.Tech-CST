@@ -1,0 +1,4 @@
+SELECT ENAME
+FROM EMP
+WHERE SAL = (SELECT Max(SAL)
+             FROM EMP);

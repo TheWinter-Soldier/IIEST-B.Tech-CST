@@ -1,0 +1,17 @@
+SELECT SAL as 'Fifth Highest Salary'
+FROM EMP A
+WHERE 4 = (SELECT Count(distinct(SAL))
+           FROM EMP B
+           WHERE B.SAL > A.SAL);
+
+
+
+            OR
+
+
+
+SELECT Min(SAL) as 'Fifth Highest Salary'
+FROM (SELECT distinct(SAL)
+      FROM EMP
+      ORDER BY SAL desc
+      LIMIT 5) AS T;

@@ -1,0 +1,5 @@
+SELECT cust_name,annual_revenue
+FROM Customer
+WHERE cust_id in (SELECT distinct(cust_id)
+                  FROM Shipment NATURAL JOIN Truck
+                  WHERE driver_name = 'Iqbal');

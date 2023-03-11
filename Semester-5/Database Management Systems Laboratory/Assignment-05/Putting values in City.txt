@@ -1,0 +1,6 @@
+INSERT into City values('Chennai',4681087);
+INSERT into City values('Kolkata',4631392);
+INSERT into City values('Mumbai',12691836);
+INSERT into City values('Indore',1837041);
+INSERT into City values('Jalandhar',785178);
+INSERT into City values('Gwalior',882458);

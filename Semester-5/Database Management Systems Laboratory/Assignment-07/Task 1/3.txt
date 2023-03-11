@@ -1,0 +1,1 @@
+insert into Students_of_CST_Department values('20CSB023','NewGuy','1996-3-15','D03',2,950000);

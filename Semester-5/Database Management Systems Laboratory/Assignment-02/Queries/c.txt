@@ -1,0 +1,3 @@
+SELECT ENAME,JOB
+FROM `EMP`
+WHERE JOB != 'Manager';

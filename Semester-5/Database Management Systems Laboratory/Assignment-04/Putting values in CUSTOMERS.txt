@@ -1,0 +1,11 @@
+insert into CUSTOMERS values(1111,'Charles','123 main st.',67226,316636);
+insert into CUSTOMERS values(2222,'Amina','124 lane 11',60606,24203227);
+insert into CUSTOMERS values(3333,'Soma','224 main st.',54444,24203270);
+insert into CUSTOMERS values(4444,'Rita','321 lane 13',66006,24219706);
+insert into CUSTOMERS values(5555,'Bhaswati','543 main st.',50302,32157654);
+insert into CUSTOMERS values(6666,'Santu','432 main st.',61111,5432167);
+insert into CUSTOMERS values(7777,'Manas','432 lane 17',61111,5432167);
+insert into CUSTOMERS values(8888,'Monirul','765 main st.',65222,4321566);
+insert into CUSTOMERS values(9999,'Tapan','654 lane 19',63111,5432156);
+insert into CUSTOMERS values(1000,'Dipu','543 main st.',60706,9876543);
+insert into CUSTOMERS values(9988,'Barun','657 lane 12',61818,9876543);

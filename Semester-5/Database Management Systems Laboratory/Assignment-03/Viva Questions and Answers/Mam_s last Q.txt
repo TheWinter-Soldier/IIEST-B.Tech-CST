@@ -1,0 +1,13 @@
+SELECT T.tid, Name, S.subno, S.subtitle
+FROM TEACHER T,TaughtBy X, SUBJECT S
+WHERE T.tid = X.tid AND X.subno = S.subno
+AND X.tid in (
+SELECT tid
+FROM TaughtBy Y
+WHERE tid in (
+SELECT tid
+FROM TaughtBy Z
+WHERE Z.subno <> Y.subno));
+
+
+Find the teachers who teach more than 1 subject.

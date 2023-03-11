@@ -1,0 +1,5 @@
+INSERT into Truck values(102,'Raymond');
+INSERT into Truck values(125,'Austin');
+INSERT into Truck values(293,'Julio');
+INSERT into Truck values(360,'Iqbal');
+INSERT into Truck values(408,'Jeffrey');

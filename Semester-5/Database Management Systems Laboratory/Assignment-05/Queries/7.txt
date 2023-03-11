@@ -1,0 +1,3 @@
+SELECT destination as 'CITY',max(weight) as 'Maximum weight of package sent to the city'
+FROM Shipment
+GROUP BY destination;

@@ -1,0 +1,4 @@
+insert into depts values('D01','Aerospace and Applied Mechanics');
+insert into depts values('D02','Civil Engineering');
+insert into depts values('D03','Computer Science and Technology');
+insert into depts values('D04','Mechanical Engineering');

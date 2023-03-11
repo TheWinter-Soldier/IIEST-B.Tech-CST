@@ -1,0 +1,13 @@
+SELECT cust_name
+FROM Customer
+WHERE cust_id in (SELECT cust_id
+                  FROM Shipment
+                  WHERE destination = 'Kolkata' 
+                  INTERSECT 
+                  SELECT cust_id
+                  FROM Shipment
+                  WHERE destination = 'Mumbai' 
+                  INTERSECT
+                  SELECT cust_id
+                  FROM Shipment
+                  WHERE destination = 'Chennai');

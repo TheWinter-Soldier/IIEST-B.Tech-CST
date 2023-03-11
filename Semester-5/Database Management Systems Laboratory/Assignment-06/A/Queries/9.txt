@@ -1,0 +1,5 @@
+SELECT ENAME
+FROM EMP
+WHERE EMPNO in (SELECT EMPNO
+                FROM EMP E natural join DEPT D
+                WHERE (HIREDATE < '2007-7-30') AND (DNAME = 'Research'));

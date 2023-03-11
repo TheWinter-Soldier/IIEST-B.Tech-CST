@@ -1,0 +1,6 @@
+SELECT DEPTNO,Avg(SAL)
+FROM EMP
+GROUP BY DEPTNO
+HAVING Avg(SAL) >= ALL(SELECT Avg(SAL)
+                       FROM EMP
+                       GROUP BY DEPTNO);

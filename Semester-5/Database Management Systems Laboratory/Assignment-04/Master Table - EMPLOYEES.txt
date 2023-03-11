@@ -1,0 +1,5 @@
+create table EMPLOYEES(
+ENO integer primary key,
+ENAME varchar(8),
+ZIP integer references ZIPCODES(ZIP) on delete set NULL,
+HDATE date);

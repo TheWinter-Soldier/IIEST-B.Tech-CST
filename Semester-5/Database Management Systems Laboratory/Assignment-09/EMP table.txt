@@ -1,0 +1,9 @@
+create table EMP(
+EMPNO integer primary key,
+ENAME varchar(8),
+JOB varchar(10),
+MGR integer references EMP(EMPNO),
+HIREDATE varchar(10),
+SAL integer,
+COMM integer,
+DEPTNO integer references DEPT(DEPTNO) on delete set NULL);

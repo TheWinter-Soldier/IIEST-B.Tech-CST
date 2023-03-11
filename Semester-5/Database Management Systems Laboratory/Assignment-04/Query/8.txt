@@ -1,0 +1,15 @@
+SELECT HDATE as 'Earliest Hire Date',ENAME
+FROM EMPLOYEES
+ORDER by HDATE
+LIMIT 1;
+
+
+
+                or
+
+
+
+SELECT E1.HDATE as 'Earliest Hire Date',E1.ENAME
+FROM EMPLOYEES E1 left join EMPLOYEES E2
+ON E1.HDATE > E2.HDATE
+WHERE E2.HDATE is NULL;

@@ -1,0 +1,4 @@
+SELECT DNAME
+FROM DEPT
+WHERE DEPTNO not in (SELECT distinct(DEPTNO)
+                     FROM EMP);

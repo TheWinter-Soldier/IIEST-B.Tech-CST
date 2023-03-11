@@ -1,0 +1,4 @@
+create table faculty(
+fac_code char(8) primary key,
+fac_name varchar(30) not NULL,
+fac_dept char(3) references depts(deptcode) on delete cascade);

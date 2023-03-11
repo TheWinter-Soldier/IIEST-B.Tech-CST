@@ -1,0 +1,5 @@
+SELECT MGR as 'Manager No.',Min(SAL) as 'Salary of the lowest-paid employee under the manager'
+FROM EMP
+WHERE (MGR is not NULL) AND (SAL > 1000)
+GROUP by MGR
+ORDER by 2 desc;

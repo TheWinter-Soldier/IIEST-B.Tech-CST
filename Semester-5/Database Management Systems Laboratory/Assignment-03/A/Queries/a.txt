@@ -1,0 +1,4 @@
+select s_name,b_name,b_color
+from SAILORS S,BOATS B,RESERVES R
+where S.s_id = R.s_id AND B.b_id = R.b_id
+AND S.s_name = 'Tarun';

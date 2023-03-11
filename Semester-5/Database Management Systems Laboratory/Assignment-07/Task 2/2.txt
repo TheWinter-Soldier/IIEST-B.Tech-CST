@@ -1,0 +1,2 @@
+DELETE FROM Mech_students
+WHERE Name = 'Rihan';

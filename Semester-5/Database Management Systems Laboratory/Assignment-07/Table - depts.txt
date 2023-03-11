@@ -1,0 +1,3 @@
+create table depts(
+deptcode char(3) primary key,
+deptname char(40) not NULL);

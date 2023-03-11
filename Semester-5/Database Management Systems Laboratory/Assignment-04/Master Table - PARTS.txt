@@ -1,0 +1,6 @@
+create table PARTS(
+PNO integer primary key,
+PNAME varchar(19),
+QOH integer,
+PRICE float,
+OLEVEL integer);

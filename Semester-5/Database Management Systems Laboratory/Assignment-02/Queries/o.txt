@@ -1,0 +1,2 @@
+SELECT count(distinct JOB) as TOTAL_NO_OF_DESIGNATIONS
+FROM `EMP`;

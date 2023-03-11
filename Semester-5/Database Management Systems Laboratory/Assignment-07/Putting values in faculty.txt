@@ -1,0 +1,9 @@
+insert into faculty values('CS_FAC01','Rhaenys Targaryen','D03');
+insert into faculty values('CS_FAC02','Julia Morton','D03');
+insert into faculty values('CS_FAC03','Sushil Adhikary','D03');
+insert into faculty values('ME_FAC01','Ronald Brown','D04');
+insert into faculty values('ME_FAC02','Anand Pathak','D04');
+insert into faculty values('CE_FAC01','Jon B. Weiss','D02');
+insert into faculty values('CE_FAC02','Daniel P. Cox','D02');
+insert into faculty values('AM_FAC01','Silas J. Smith','D01');
+insert into faculty values('AM_FAC02','Dibakar Banerjee','D01');

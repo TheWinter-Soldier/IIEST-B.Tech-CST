@@ -1,0 +1,3 @@
+SELECT cust_id,Format(avg(weight),2) as 'Average package-weight sent by customer'
+FROM Shipment
+GROUP BY cust_id;

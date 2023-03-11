@@ -1,0 +1,10 @@
+Select the employee whose salary is greater than the average salary of his department.
+
+
+SELECT ENAME,DEPTNO,SAL
+FROM EMP A
+WHERE A.SAL > (SELECT T.Average_salary_of_department
+               FROM (SELECT DEPTNO,Avg(SAL) as Average_salary_of_department
+                     FROM EMP
+                     GROUP by DEPTNO) as T
+               WHERE A.DEPTNO = T.DEPTNO);

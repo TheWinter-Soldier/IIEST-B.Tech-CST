@@ -1,0 +1,10 @@
+insert into ZIPCODES values(67226,'Wichita');
+insert into ZIPCODES values(60606,'Fort Dodge');
+insert into ZIPCODES values(50302,'Kansas City');
+insert into ZIPCODES values(54444,'Columbia');
+insert into ZIPCODES values(66006,'Libaral');
+insert into ZIPCODES values(61111,'Fort Hays');
+insert into ZIPCODES values(65222,'Diamond');
+insert into ZIPCODES values(63111,'Kolkata');
+insert into ZIPCODES values(60706,'Patna');
+insert into ZIPCODES values(61818,'Delhi');

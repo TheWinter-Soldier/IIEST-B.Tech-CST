@@ -1,0 +1,4 @@
+select Name,Dept,Subtitle
+from TEACHER T,SUBJECT S,TaughtBy X
+where T.Tid = X.Tid AND S.Subno = X.Subno
+AND S.Subtitle = 'Thermodynamics';

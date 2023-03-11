@@ -1,0 +1,6 @@
+SELECT destination as 'City with population more than 1 million',min(weight) as 'Minimum weight of package sent to the City'
+FROM Shipment
+GROUP BY destination
+HAVING destination in (SELECT city_name
+                       FROM City
+                       WHERE population > 1000000);

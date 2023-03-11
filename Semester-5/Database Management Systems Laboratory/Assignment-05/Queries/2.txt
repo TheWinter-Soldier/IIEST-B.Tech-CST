@@ -1,0 +1,3 @@
+SELECT distinct(S.truck_no),driver_name
+FROM Truck T NATURAL JOIN Shipment S
+WHERE S.weight > 200;

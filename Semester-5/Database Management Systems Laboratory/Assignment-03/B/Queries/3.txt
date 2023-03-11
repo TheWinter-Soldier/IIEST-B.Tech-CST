@@ -1,0 +1,3 @@
+select *
+from STUDENT
+where (Rollno >= 20) AND (Rollno <= 25) AND City = 'Kolkata';

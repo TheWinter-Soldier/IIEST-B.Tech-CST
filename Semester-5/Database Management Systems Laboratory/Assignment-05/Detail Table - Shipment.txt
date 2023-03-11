@@ -1,0 +1,8 @@
+CREATE TABLE Shipment(
+shipment_no integer,
+cust_id integer REFERENCES Customer(cust_id) on delete cascade,
+weight integer check (weight < 1000),
+truck_no integer REFERENCES Truck(truck_no) on delete set NULL,
+destination varchar(9) REFERENCES City(city_name) on delete set NULL,
+ship_date date,
+primary key (shipment_no,cust_id));

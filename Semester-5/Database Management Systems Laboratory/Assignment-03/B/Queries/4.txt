@@ -1,0 +1,4 @@
+select *
+from STUDENT
+where City = 'Kolkata'
+order by Rollno desc;

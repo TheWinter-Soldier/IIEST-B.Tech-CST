@@ -1,0 +1,5 @@
+CREATE TABLE Customer(
+cust_id integer primary key check (cust_id BETWEEN 100 AND 10000),
+cust_name varchar(10),
+annual_revenue integer,
+cust_type varchar(12) check (cust_type in ('Manufacturer','Wholesaler','Retailer')));
